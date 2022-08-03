@@ -1,0 +1,36 @@
+# Contributing Guidelines
+
+## Code of Conduct
+
+This follows the [Rust Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct)
+
+## File Layout
+
+File layout follows the pattern of the [Rust Book](https://doc.rust-lang.org/book/).
+
+See the Rust Book's
+[Summary File](https://raw.githubusercontent.com/rust-lang/book/main/src/SUMMARY.md).
+
+## Writing style
+
+This section documents a few standards for writing used throughout the book.
+
+### Chapters start with a second level heading
+
+We use:
+
+```
+## Some Page
+```
+
+We do not use:
+
+```
+# Some Page
+```
+
+This excludes the [Title Page](./src/title-page.md). This is largely a stylistic choice.
+
+### Always use "we" and not "I"
+
+Pretend like you are explaining this to a friend!
