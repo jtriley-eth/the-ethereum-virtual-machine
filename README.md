@@ -17,6 +17,15 @@ Clone the repository:
 git clone https://github.com/JoshuaTrujillo15/the-ethereum-virtual-machine/
 ```
 
+Install [mdbook](https://lib.rs/crates/mdbook) - Rust crate for converting markdown to ebook :
+
+```rust
+cargo install mdbook
+```
+
+- If the above command thros an error it means you don't have the Rust compiler installed.
+- Install Rust
+
 Enter this directory:
 
 ```bash
