@@ -67,6 +67,7 @@ Mermaid Example Syntax
 Code
 
 ```bash
+%%{init: {'theme':'dark', 'themeVariables':{'textColor':'#FEFFDE', 'nodeBorder':'#E900FF'}}}%%
 %% Example syntax taken from https://mermaid.live/
 graph LR
     A[Christmas] -->|Get money| B(Go shopping)
@@ -77,9 +78,16 @@ graph LR
 
 ```
 
+Note: put the following _theming_ code at the top of the mermaid block
+
+```bash
+%%{init: {'theme':'dark', 'themeVariables':{'textColor':'#FEFFDE', 'nodeBorder':'#E900FF'}}}%%
+```
+
 The above code gets rendered into the following diagram
 
 ```mermaid
+%%{init: {'theme':'dark', 'themeVariables':{'textColor':'#FEFFDE', 'nodeBorder':'#E900FF'}}}%%
 graph LR
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
