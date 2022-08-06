@@ -29,7 +29,7 @@ cargo install mdbook
 _Install rust on Windows (WSL)_
 
 ```bash
- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 _Install rust on Linux/MacOS_
