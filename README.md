@@ -49,3 +49,44 @@ Start an `mdbook` server and automatically open the book in a browser.
 ```
 mdbook serve --open
 ```
+
+## MDBOOK Addons
+
+This `mdbook` has two addons with the following functions
+
+### `mdbook-mermaid` - Mermaid Diagrams support
+
+````bash
+
+1. [`mdbook-mermaid`](https://lib.rs/crates/mdbook-mermaid) - This addon enables rendering of mermaid diagrams in markdown.Which means you can add diagrams in mermaid syntax in the book
+
+Mermaid Example Syntax
+
+Code
+```bash
+%% Example syntax taken from https://mermaid.live/
+graph LR
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+
+````
+
+The above code gets rendered into the following diagram
+
+```mermaid
+graph LR
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+
+1. [Mermaid Live - Mermaid Playground](https://mermaid.live/) - You can test your diagrams here.
+2. [Github Markdown renders Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) - Official Github blog post on Mermaid.
+3. [Mermaid Official Page](https://mermaid-js.github.io/mermaid/#/) - Official Mermaid page, for learning syntax
+
+### `mdbook-admonish` -
