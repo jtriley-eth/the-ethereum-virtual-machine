@@ -54,9 +54,9 @@ mdbook serve --open
 
 This `mdbook` has two addons with the following functions
 
-### `mdbook-mermaid` - Mermaid Diagrams support
+### [`mdbook-mermaid`](https://lib.rs/crates/mdbook-mermaid) - Mermaid Diagrams support
 
-1. [`mdbook-mermaid`](https://lib.rs/crates/mdbook-mermaid) - This addon enables rendering of mermaid diagrams in markdown.Which means you can add diagrams in mermaid syntax in the book
+This addon enables rendering of mermaid diagrams in markdown, Which means you can add diagrams in mermaid syntax to the book
 
 Mermaid Example Syntax
 
@@ -88,4 +88,18 @@ graph LR
 2. [Github Markdown renders Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) - Official Github blog post on Mermaid.
 3. [Mermaid Official Page](https://mermaid-js.github.io/mermaid/#/) - Official Mermaid page, for learning syntax
 
-### `mdbook-admonish` -
+### [`mdbook-admonish`](https://lib.rs/crates/mdbook-admonish) - Enhanced Callouts
+
+This addon allows adding stylized call-outs.
+
+- [View Callout Types Here](https://tommilligan.github.io/mdbook-admonish/reference.html)
+
+Syntax
+
+````markdown
+```admonish <admonish type>
+Text that needs be highlighted
+```
+````
+
+- `admonish type` - This determines the type of callout.
