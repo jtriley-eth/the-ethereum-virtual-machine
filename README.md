@@ -56,13 +56,12 @@ This `mdbook` has two addons with the following functions
 
 ### `mdbook-mermaid` - Mermaid Diagrams support
 
-````bash
-
 1. [`mdbook-mermaid`](https://lib.rs/crates/mdbook-mermaid) - This addon enables rendering of mermaid diagrams in markdown.Which means you can add diagrams in mermaid syntax in the book
 
 Mermaid Example Syntax
 
 Code
+
 ```bash
 %% Example syntax taken from https://mermaid.live/
 graph LR
@@ -72,7 +71,7 @@ graph LR
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
 
-````
+```
 
 The above code gets rendered into the following diagram
 
