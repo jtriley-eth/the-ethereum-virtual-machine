@@ -52,7 +52,11 @@ mdbook serve --open
 
 ## MDBOOK Addons
 
-This `mdbook` has two addons with the following functions
+This `mdbook` has two addons with the following functions. They can installed with the following command:
+
+```rust
+cargo install mdbook-mermaid mdbook-admonish
+```
 
 ### [`mdbook-mermaid`](https://lib.rs/crates/mdbook-mermaid) - Mermaid Diagrams support
 
