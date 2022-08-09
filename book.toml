@@ -7,3 +7,14 @@ title = "skids"
 
 [output.html]
 no-section-label = true
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-css = ["././mdbook-admonish.css"]
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`

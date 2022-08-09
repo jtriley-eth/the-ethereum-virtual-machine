@@ -29,7 +29,7 @@ cargo install mdbook
 _Install rust on Windows (WSL)_
 
 ```bash
- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 _Install rust on Linux/MacOS_
@@ -49,3 +49,69 @@ Start an `mdbook` server and automatically open the book in a browser.
 ```
 mdbook serve --open
 ```
+
+## MDBOOK Addons
+
+This `mdbook` has two addons with the following functions. They can installed with the following command:
+
+```rust
+cargo install mdbook-mermaid mdbook-admonish
+```
+
+### [`mdbook-mermaid`](https://lib.rs/crates/mdbook-mermaid) - Mermaid Diagrams support
+
+This addon enables rendering of mermaid diagrams in markdown, Which means you can add diagrams in mermaid syntax to the book
+
+Mermaid Example Syntax
+
+Code
+
+```bash
+%%{init: {'theme':'dark', 'themeVariables':{'textColor':'#FEFFDE', 'nodeBorder':'#E900FF'}}}%%
+%% Example syntax taken from https://mermaid.live/
+graph LR
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+
+```
+
+Note: put the following _theming_ code at the top of the mermaid block
+
+```bash
+%%{init: {'theme':'dark', 'themeVariables':{'textColor':'#FEFFDE', 'nodeBorder':'#E900FF'}}}%%
+```
+
+The above code gets rendered into the following diagram
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables':{'textColor':'#FEFFDE', 'nodeBorder':'#E900FF'}}}%%
+graph LR
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+
+1. [Mermaid Live - Mermaid Playground](https://mermaid.live/) - You can test your diagrams here.
+2. [Github Markdown renders Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) - Official Github blog post on Mermaid.
+3. [Mermaid Official Page](https://mermaid-js.github.io/mermaid/#/) - Official Mermaid page, for learning syntax
+
+### [`mdbook-admonish`](https://lib.rs/crates/mdbook-admonish) - Enhanced Callouts
+
+This addon allows adding stylized call-outs.
+
+- [View Callout Types Here](https://tommilligan.github.io/mdbook-admonish/reference.html)
+
+Syntax
+
+````markdown
+```admonish <admonish type>
+Text that needs be highlighted
+```
+````
+
+- `admonish type` - This determines the type of callout.
