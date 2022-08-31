@@ -1,6 +1,6 @@
 # The Ethereum Virtual Machine
 
-_by jtriley.eth and the Ethereum Developer Community_
+_by jtriley.eth, SkidsDAO, and the Ethereum Developer Community_
 
 This version assumes the most recent hard fork is the "Gray Glacier" hard fork (2022, June 30).
 
