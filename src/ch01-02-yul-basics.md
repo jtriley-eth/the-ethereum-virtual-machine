@@ -68,7 +68,7 @@ Loop ten times, multiplying a "result" by two
 ```js
 let result := 1
 
-for { let i := 0 } lt(i, 11) { add(i, 1) } {
+for { let i := 0 } lt(i, 11) { i := add(i, 1) } {
     result := mul(result, 2)
 }
 ```
