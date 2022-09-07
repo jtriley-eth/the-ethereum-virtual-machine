@@ -11,20 +11,10 @@ let a := 1
 
 ### Conditional
 
-Conditional code blocks can be defined with the `if`/`else` control flow OR a `switch` statement.
+Conditional code blocks can be defined using `if` OR a `switch` statement.
 
-#### `if` and `else`
+#### `if`
 
-Both `if` and `else`:
-```js
-if expression {
-    // expression is true (1)
-} else {
-    // expression is false (0)
-}
-```
-
-Omitting `else`:
 ```js
 if expression {
     // expression is true (1)
@@ -78,7 +68,7 @@ Loop ten times, multiplying a "result" by two
 ```js
 let result := 1
 
-for { let i := 0 } lt(i, 11) { add(i, 1) } {
+for { let i := 0 } lt(i, 11) { i := add(i, 1) } {
     result := mul(result, 2)
 }
 ```
