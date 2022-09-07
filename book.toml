@@ -3,7 +3,7 @@ authors = ["jtriley"]
 language = "en"
 multilingual = false
 src = "src"
-title = "skids"
+title = "The EVM"
 
 [output.html]
 no-section-label = true

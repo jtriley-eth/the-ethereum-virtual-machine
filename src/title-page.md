@@ -15,4 +15,5 @@ Special Thanks to the support and contributions of the following:
 
 - [m0ham3dxx](https://twitter.com/m0ham3dxx)
 - [devtooligan](https://twitter.com/devtooligan)
+- [gmhacker.eth](https://twitter.com/GonRMagalhaes)
 - [SkidsDAO](https://twitter.com/SkidsDAO)

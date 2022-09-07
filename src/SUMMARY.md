@@ -3,8 +3,10 @@
 [The Ethereum Virtual Machine](./title-page.md)
 [Introduction](./introduction.md)
 
-- [EVM Basics](./ch00-00-basics.md)
-  - [Execution Context](./ch00-01-execution-context.md)
+- [EVM Execution Environment](./ch00-00-evm-execution-environment.md)
+  - [Context](./ch00-01-context.md)
+  - [Environment Variables](./ch00-02-environment-variables.md)
+  - [External Calls](./ch00-03-external-calls.md)
 - [Assembly Languages](./ch01-00-assembly-languages.md)
   - [Yul](./ch01-01-yul.md)
     - [Yul Basics](./ch01-02-yul-basics.md)
