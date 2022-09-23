@@ -2,8 +2,8 @@
 
 ### Learn Yul
 
-- [Solidity Yul docs](https://docs.soliditylang.org/en/v0.8.15/yul.html)
-- [Solidity Inline Assembly"](https://docs.soliditylang.org/en/v0.8.12/assembly.html)
+- [Solidity Yul docs](https://docs.soliditylang.org/en/latest/yul.html)
+- [Solidity Inline Assembly"](https://docs.soliditylang.org/en/latest/assembly.html)
 - [evm.codes](https://www.evm.codes/)
 - [EVM deep dives - @@noxx3xxon](https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy?utm_source=url&s=r)
 - [Brink security review - Spearbit](https://github.com/spearbit/portfolio/blob/master/pdfs/Brink-Spearbit-Security-Review-Engagement-2.pdf)
