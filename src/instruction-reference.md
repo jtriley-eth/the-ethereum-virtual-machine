@@ -51,7 +51,7 @@
 | 0x41   | [COINBASE](instruction-reference.md#coinbase)             | []                                                            | [address]      |
 | 0x42   | [TIMESTAMP](instruction-reference.md#timestamp)           | []                                                            | [timestamp]    |
 | 0x43   | [NUMBER](instruction-reference.md#number)                 | []                                                            | [blocknumber]  |
-| 0x44   | [DIFFICULTY](instruction-reference.md#difficulty)         | []                                                            | [difficulty]   |
+| 0x44   | [PREVRANDAO](instruction-reference.md#prevrandao)         | []                                                            | [random]       |
 | 0x45   | [GASLIMIT](instruction-reference.md#gaslimit)             | []                                                            | [gaslimit]     |
 | 0x46   | [CHAINID](instruction-reference.md#chainid)               | []                                                            | [chainid]      |
 | 0x47   | [SELFBALANCE](instruction-reference.md#selfbalance)       | []                                                            | [balance]      |
@@ -1131,9 +1131,9 @@ Stack Output:
 [[Back to top]](instruction-reference.md#instructions-reference)
 
 
-#### DIFFICULTY
+#### PREVRANDAO
 
-Pushes the mining difficulty of the current transaction's block to the stack.
+Pushes a psuedorandom number to the stack.
 
 Stack Output:
 
