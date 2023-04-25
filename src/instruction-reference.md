@@ -68,6 +68,7 @@
 | 0x59   | [MSIZE](instruction-reference.md#msize)                   | []                                                            | [size]         |
 | 0x5A   | [GAS](instruction-reference.md#gas)                       | []                                                            | [gasleft]      |
 | 0x5B   | [JUMPDEST](instruction-reference.md#jumpdest)             | []                                                            | []             |
+| 0x5F   | [PUSH0](instruction-reference.md#push0)                   | []                                                            | [zero]         |
 | 0x60   | [PUSH1](instruction-reference.md#push1)                   | []                                                            | [value]        |
 | 0x61   | [PUSH2](instruction-reference.md#push2)                   | []                                                            | [value]        |
 | 0x62   | [PUSH3](instruction-reference.md#push3)                   | []                                                            | [value]        |
@@ -1425,6 +1426,17 @@ This does not affect the execution context, nor does it execute an instruction. 
 byte that a `JUMP` or `JUMPI` instruction should write the program counter to.
 
 [[Back to top]](instruction-reference.md#instructions-reference)
+
+
+#### PUSH0
+
+Pushes a zero-value to the stack.
+
+Stack Output:
+
+| index | value                                                              |
+| ----- | ------------------------------------------------------------------ |
+| 0     | 0x0000000000000000000000000000000000000000000000000000000000000000 |
 
 
 #### PUSH1
